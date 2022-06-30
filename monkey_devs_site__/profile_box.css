@@ -40,7 +40,6 @@ nav{
 }
 
 main{
-    background: url("image/forest_wallpaper.jpg") no-repeat center center;
     background-size: cover;
     height: 92vh;
 }
@@ -209,3 +208,6 @@ footer .social_icon li a{
     transition-delay: .25s;
 }
 
+.div-articles{
+    background-color: #23232e;
+}
