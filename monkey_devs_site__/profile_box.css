@@ -4,6 +4,10 @@
     
 }
 
+body{
+    background: #23232e;
+}
+
 a{
     color: white;
     text-decoration: none;
