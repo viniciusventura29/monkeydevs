@@ -1,14 +1,16 @@
 {
-  "name": "test",
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
   "private": true,
-  "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "devDependencies": {
-    "prettier": "^2.7.1",
-    "vite": "^2.9.9"
+  "dependencies": {
+    "astro": "^1.3.1"
   }
 }
