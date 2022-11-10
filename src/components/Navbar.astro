@@ -1,5 +1,7 @@
 ---
 import logo from '/logotypes/logo_vertical.png';
+import gitIcon from '/icons/brand-github.svg'
+import lightMode from '/icons/brightness-down.svg'
 ---
 
 <nav class="flex justify-between h-20 w-full items-center">
@@ -11,7 +13,8 @@ import logo from '/logotypes/logo_vertical.png';
     <li class="cursor-pointer"><a href="#">About</a></li>
   </ul>
   <div class="flex gap-5">
-    <div class="bg-gray-200 p-2 rounded-full">GitHub</div>
-    <div class="bg-gray-200 p-2 rounded-full">Dark/light</div>
+    <div class="shadow shadow-slate-400 p-3 rounded-full cursor-pointer"><a href="https://github.com/monkey-developers" target="_blank"><img src={gitIcon} width="25px" alt="Icon GitHub" /></a></div>
+    <div class="shadow shadow-slate-400 p-3 rounded-full cursor-pointer"><img src={lightMode} width="25px" alt="icon light mode" /></div>
+    
   </div>
 </nav>
