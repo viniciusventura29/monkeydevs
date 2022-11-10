@@ -11,6 +11,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# bosch proxy
+/package-lock.json
+
 
 # environment variables
 .env
