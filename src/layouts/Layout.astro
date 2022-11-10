@@ -4,6 +4,7 @@ export interface Props {
 }
 
 const { title } = Astro.props;
+import Footer from '../components/Footer.astro';
 import Navbar from '../components/Navbar.astro';
 ---
 
@@ -16,8 +17,9 @@ import Navbar from '../components/Navbar.astro';
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="px-[25%]">
+	<body class="px-[25%] flex flex-col">
 		<Navbar />
 		<slot  />
+		<Footer />
 	</body>
 </html>
